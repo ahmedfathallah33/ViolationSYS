@@ -1,0 +1,100 @@
+[
+  {
+    "ContainingType": "ViolationEditorApi.Controllers.CallSurveyFileController",
+    "Method": "Get",
+    "RelativePath": "api/CallSurveyFile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViolationEditorApi.Controllers.EvaluationController",
+    "Method": "GetSummary",
+    "RelativePath": "api/Evaluation/summary",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViolationEditorApi.Controllers.TblCallSurveyController",
+    "Method": "UploadExcel",
+    "RelativePath": "api/TblCallSurvey/UploadExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViolationEditorApi.Controllers.TblCSQFileController",
+    "Method": "UploadExcel",
+    "RelativePath": "api/TblCSQFile/UploadExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViolationEditorApi.Controllers.UploadREQController",
+    "Method": "TestREQModel",
+    "RelativePath": "api/UploadREQ/TestREQModel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViolationEditorApi.Controllers.UploadREQController",
+    "Method": "UploadExcel",
+    "RelativePath": "api/UploadREQ/UploadExcel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ViolationEditorApi.Controllers.ViolationsController",
+    "Method": "Get",
+    "RelativePath": "api/Violations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ViolationEditorApi.Models.TblCSQ, ViolationEditorApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

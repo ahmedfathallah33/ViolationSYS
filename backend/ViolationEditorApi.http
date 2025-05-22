@@ -1,0 +1,6 @@
+@ViolationEditorApi_HostAddress = http://localhost:5063
+
+GET {{ViolationEditorApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
