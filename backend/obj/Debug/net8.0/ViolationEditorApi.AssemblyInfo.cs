@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ViolationEditorApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa29a987f8183fca01ff6e26d6240539e4406932")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c33fb1ad5dddfbd2347e11e26e16769bdc4fcd83")]
 [assembly: System.Reflection.AssemblyProductAttribute("ViolationEditorApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViolationEditorApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
