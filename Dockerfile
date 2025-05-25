@@ -17,3 +17,5 @@ WORKDIR /app
 COPY --from=build /out ./
 
 ENTRYPOINT ["dotnet", "ViolationEditorApi.dll"]
+
+ENV DOTNET_SYSTEM_NET_HTTP_USESOCKETSHTTPHANDLER=0

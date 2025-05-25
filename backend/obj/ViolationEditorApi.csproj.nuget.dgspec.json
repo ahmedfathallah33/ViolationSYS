@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\LV\\ReportsEditor\\ViolationEditorApi\\ViolationEditorApi.csproj": {}
+    "D:\\Codes\\ViolationSYS\\backend\\ViolationEditorApi.csproj": {}
   },
   "projects": {
-    "C:\\LV\\ReportsEditor\\ViolationEditorApi\\ViolationEditorApi.csproj": {
+    "D:\\Codes\\ViolationSYS\\backend\\ViolationEditorApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\LV\\ReportsEditor\\ViolationEditorApi\\ViolationEditorApi.csproj",
+        "projectUniqueName": "D:\\Codes\\ViolationSYS\\backend\\ViolationEditorApi.csproj",
         "projectName": "ViolationEditorApi",
-        "projectPath": "C:\\LV\\ReportsEditor\\ViolationEditorApi\\ViolationEditorApi.csproj",
-        "packagesPath": "C:\\Users\\Mayadh\\.nuget\\packages\\",
-        "outputPath": "C:\\LV\\ReportsEditor\\ViolationEditorApi\\obj\\",
+        "projectPath": "D:\\Codes\\ViolationSYS\\backend\\ViolationEditorApi.csproj",
+        "packagesPath": "C:\\Users\\afath\\.nuget\\packages\\",
+        "outputPath": "D:\\Codes\\ViolationSYS\\backend\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Mayadh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\afath\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -86,6 +80,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.15, 8.0.15]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
